@@ -48,9 +48,10 @@ button:hover {
 }
 
 #qrcode {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 #qrcode img {
     display: none;
+    text-align: center;
 }
