@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.generarQR = function () {
         var inputText = document.getElementById("inputText").value;
         qrcode.makeCode(inputText);
+        
     };
 
     // Función para descargar el código QR
