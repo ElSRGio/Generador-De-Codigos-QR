@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Crea una instancia de QRCode
     var qrcode = new QRCode(document.getElementById("qrcode"), {
-        width: 128,
-        height: 128
+        width: 200,
+        height: 200
     });
 
     // Función para generar el código QR
