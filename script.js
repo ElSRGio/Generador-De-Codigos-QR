@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Crea un enlace temporal y simula el clic para descargar
         var link = document.createElement("a");
         link.href = imageURL;
-        link.download = "qrcode.png";
+        link.download = "QRCodeAsis.png";
         link.click();
     };
 });
